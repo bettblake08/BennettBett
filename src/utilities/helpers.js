@@ -4,7 +4,7 @@ export const isScreenLandscapeTab = () =>
   window.screen.width >= 600 && window.screen.width < 900;
 
 export const setPageTitle = title =>
-  (document.title = `TheBestBett | ${title}`);
+  (document.title = `BennettBett | ${title}`);
 
 export default {
   isScreenMobile,

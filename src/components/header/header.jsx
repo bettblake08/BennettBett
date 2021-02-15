@@ -73,7 +73,7 @@ const Header = () => {
             >
               <img
                 src={style.isLogoDark ? LogoDark : Logo}
-                alt="TheBestBett logo"
+                alt="BennettBett logo"
               />
             </motion.div>
             <div
@@ -82,7 +82,6 @@ const Header = () => {
               <SocialLink {...Profile.socials.facebook} />
               <SocialLink {...Profile.socials.twitter} />
               <SocialLink {...Profile.socials.linkedin} />
-              <SocialLink {...Profile.socials.github} />
             </div>
           </div>
         </div>

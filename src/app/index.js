@@ -9,7 +9,6 @@ import { AnimatePresence } from "framer-motion";
 import AppContext from "./context";
 import PageSelector from "../components/pageSelector";
 import LandingPage from "../views/landingPage";
-import ProfilePage from "../views/profilePage";
 import WorkPage from "../views/workPage";
 import ContactPage from "../views/contactPage";
 
@@ -31,7 +30,6 @@ const Pages = () => {
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/profile" component={ProfilePage} />
           <Route exact path="/work" component={WorkPage} />
           <Route exact path="/contact" component={ContactPage} />
         </Switch>
