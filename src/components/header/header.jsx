@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 import AppContext from "../../app/context";
 
 import Profile from "../../me";
-import Logo from "../../assets/images/thebestbett-1.png";
-import LogoDark from "../../assets/images/thebestbett-black-1.png";
+import Logo from "../../assets/images/logo-white.png";
+import LogoDark from "../../assets/images/logo-black.png";
 
 import "./header.scss";
 

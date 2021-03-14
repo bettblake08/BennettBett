@@ -9,7 +9,7 @@ import GlobalVariants from "../../utilities/globalVariants";
 import Button from "../../components/button";
 import me from "../../me";
 
-// import ProPicture from "../../assets/images/pro-picture.png";
+import ProPicture from "../../assets/images/pro-picture.png";
 import "./landingPage.scss";
 
 const variants = {
@@ -72,7 +72,7 @@ export default () => {
   return (
     <SlidingPage className="landing-page">
       <motion.div className="landing-page__picture" variants={imageVariants}>
-        {/* <img src={ProPicture} alt="Brian Bett" /> */}
+        <img src={ProPicture} alt="Bennett K. Bett" />
       </motion.div>
       <div className="landing-page__info">
         <motion.div className="info__intro">
@@ -80,7 +80,7 @@ export default () => {
             {letterAnimation("Hi, I'm")}
           </motion.div>
           <motion.div className="info__intro__name" variants={variants}>
-            {letterAnimation(me.name.caps)}
+            {letterAnimation(me.name.normal)}
           </motion.div>
         </motion.div>
 

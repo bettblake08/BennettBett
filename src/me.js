@@ -4,7 +4,7 @@ import neoUiImage from "./assets/images/neo-ui.png";
 export default {
   name: {
     normal: "Bennett Bett",
-    caps: "BENNETT BETT",
+    caps: "BENNETT",
   },
   whoAmI: ["Writer."],
   projects: [
