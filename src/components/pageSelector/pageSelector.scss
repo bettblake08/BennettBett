@@ -93,7 +93,7 @@ $p-button-name: ".p-button";
     opacity: 0;
 
     &--inner {
-      stroke: $color-primary;
+      stroke: $color-secondary;
       stroke-dasharray: 15 10;
       stroke-dashoffset: 300;
     }
