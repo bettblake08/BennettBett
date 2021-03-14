@@ -8,7 +8,7 @@ export default {
     normal: "Bennett K. Bett",
     caps: "BENNETT",
   },
-  whoAmI: ["Writer."],
+  whoAmI: ["Writer.", "Editor.", "Content and SEO Strategist."],
   projects: [
     {
       id: 1,

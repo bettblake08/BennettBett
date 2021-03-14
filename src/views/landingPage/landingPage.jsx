@@ -59,7 +59,8 @@ export default () => {
         let typed = new Typed(typeRef, {
           strings: me.whoAmI,
           loop: true,
-          typeSpeed: 100
+          typeSpeed: 50,
+          backDelay: 3000
         });
       }, 3000);
     }
