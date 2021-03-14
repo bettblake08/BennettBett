@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="public/favicon.png" height="70px" alt="TheBestBett logo">
-    <img src="src/assets/images/thebestbett-black-1.png" height="70px" alt="TheBestBett logo">
+    <img src="src/assets/images/logo-black.png" height="70px" alt="TheBestBett logo">
 </p>
 
 <p align="center">
