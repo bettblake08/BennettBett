@@ -3,7 +3,7 @@ import neoUiImage from "./assets/images/neo-ui.png";
 
 export default {
   name: {
-    normal: "Bennett Bett",
+    normal: "Bennett K. Bett",
     caps: "BENNETT",
   },
   whoAmI: ["Writer."],
