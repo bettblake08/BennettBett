@@ -1,15 +1,5 @@
 <p align="center">
-    <img src="public/favicon.png" height="70px" alt="TheBestBett logo">
-    <img src="src/assets/images/thebestbett-black-1.png" height="70px" alt="TheBestBett logo">
-</p>
-
-<p align="center">
-    <a href="https://app.netlify.com/sites/thebestbett/deploys">
-        <img src="https://api.netlify.com/api/v1/badges/c250efb3-870d-46d8-813f-ad3c35128607/deploy-status" alt="Netlify Status" />
-    </a>
-    <a href="https://codeclimate.com/github/bettblake08/TheBestBett/maintainability">
-        <img src="https://api.codeclimate.com/v1/badges/0bc708838e2955a63f0c/maintainability" />
-    </a>
+    <img src="src/assets/images/logo-black.png" height="70px" alt="TheBestBett logo">
 </p>
 
 ## Intro

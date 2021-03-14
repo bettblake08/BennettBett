@@ -18,10 +18,6 @@ const Work = ({ work, index, selected, handleOnClick }) => (
     }}
     className={`work-collection__item${selected ? "--selected" : ""}`}
     onClick={() => handleOnClick(index)}
-    layoutTransition={{
-      ease: "easeIn",
-      duration: 0.5
-    }}
     whileHover="card-hover"
   >
     <div className="work-collection__item__image">

@@ -22,8 +22,10 @@
     bottom: 0;
     right: 10%;
     height: 90vh;
+    width: 40vw;
     img {
       min-height: 100%;
+      width: 100%;
       filter: drop-shadow(-5rem -1rem 2rem #00000060) !important;
     }
   }

@@ -5,8 +5,8 @@
   $main: &;
   &:hover {
     opacity: 1;
-    background-color: $color-primary;
-    border-color: $color-primary;
+    background-color: $color-secondary;
+    border-color: $color-secondary;
     color: $color-primary-white;
     box-shadow: $box-shadow-light;
   }
@@ -44,12 +44,12 @@
   }
 
   &--normal {
-    color: $color-primary;
-    border: solid 0.1rem $color-primary;
+    color: $color-secondary;
+    border: solid 0.1rem $color-secondary;
   }
 
   &--icon-only {
-    color: $color-primary;
+    color: $color-secondary;
     opacity: 0.6;
     background-color: transparent;
     border: none;
@@ -80,7 +80,7 @@
     }
 
     &::before {
-      background-color: $color-primary;
+      background-color: $color-secondary;
     }
 
     &:hover::before {
@@ -151,7 +151,7 @@
   }
 
   &--normal &__label {
-    color: $color-primary;
+    color: $color-secondary;
   }
 
   &--fail &__label {

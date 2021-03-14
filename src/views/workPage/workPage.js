@@ -31,7 +31,7 @@ const WorkPreview = ({ work, controls }) => {
       <div className="work-preview__fade"></div>
       <div className="work-preview__details">
         <motion.div
-          className="work-preview__title font--subtitle"
+          className="work-preview__title font--title"
           variants={variants}
           animate={controls}
         >

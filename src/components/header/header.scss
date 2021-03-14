@@ -83,8 +83,19 @@
         @include transition-quick;
 
         &:hover {
-          color: $color-primary;
           transform: scale(1.5);
+
+          &.fa {
+            &-facebook {
+              color: #1a73e8;
+            }
+            &-twitter {
+              color: #8bd7fa;
+            }
+            &-linkedin {
+              color: #297db4;
+            }
+          }
         }
       }
     }

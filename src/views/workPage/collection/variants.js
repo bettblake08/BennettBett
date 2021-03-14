@@ -41,24 +41,24 @@ const variants = {
       height: "25rem"
     }
   },
-  cardName: {
-    "card-initial": {
-      opacity: 0,
-      y: "-1rem"
-    },
-    "card-hover": {
-      opacity: 1,
-      y: 0
-    }
-  },
-  cardNameSelected: {
-    "card-initial": {
-      opacity: 1
-    },
-    "card-hover": {
-      opacity: 1
-    }
-  },
+  // cardName: {
+  //   "card-initial": {
+  //     opacity: 0,
+  //     y: "-1rem"
+  //   },
+  //   "card-hover": {
+  //     opacity: 1,
+  //     y: 0
+  //   }
+  // },
+  // cardNameSelected: {
+  //   "card-initial": {
+  //     opacity: 1
+  //   },
+  //   "card-hover": {
+  //     opacity: 1
+  //   }
+  // },
   cardImage: {
     "card-hover": globalVariants.imageAnimation
   }

@@ -68,7 +68,7 @@ class Button extends Component {
     <>
       <div className="button__icon">{this.renderIcon(config.icon)}</div>
       <div className="button__label">
-        <span className="font--normal">{config.label}</span>
+        <span className="font--label">{config.label}</span>
       </div>
     </>
   );

@@ -71,7 +71,7 @@ const ContactSection = ({
 
             <div className="contact-section__button">
               <Button
-                defaultStatus={7}
+                defaultStatus={0}
                 parent={{ components, setComponents }}
                 name="contactButton"
                 config={{

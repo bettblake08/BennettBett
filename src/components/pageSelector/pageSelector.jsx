@@ -116,7 +116,7 @@ const PageOption = ({ label, icon, url }) => {
           <i className={`far fa-${icon} fa-2x center`} />
         </div>
         <label>
-          <span className="font--normal">{label}</span>
+          <span className="font--label">{label}</span>
         </label>
       </Link>
     </motion.div>
