@@ -41,10 +41,10 @@ export default {
   socials: {
     twitter: {
       icon: "twitter",
-      url: "https://twitter.com/bennett_bett",
+      url: "https://twitter.com/bett_bennett",
       title: "Twitter",
       image,
-      handle: "bennett_bett",
+      handle: "bett_bennett",
     },
     facebook: {
       icon: "facebook",
